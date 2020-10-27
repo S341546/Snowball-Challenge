@@ -3,6 +3,7 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     
+    
   }
 
   
@@ -16,31 +17,13 @@ body {
     font-size: 2vw;
     text-align: center;
   }
-  h3, h4 {
+  h3, h4, h5 {
     font-size: 1.5vw;
   }
   
   p {
     font-family: verdana;
     font-size: 1vw;
-  }
-
-  button{
-    background-color: lightgray;
-    
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    text-decoration: none;
-  }
-
-
-  .link{
-    text-decoration: none;
-    color: black;
-    font-size: 1.3vw;
-    
   }
 
   .center {
@@ -54,4 +37,25 @@ body {
   .farge {
     background-color: white;
     padding: 20px;
+  }
+
+  /* navbar */
+
+  ul.menu {
+    list-style-type: none;
+    position: fixed;
+    background-color: lightgray;
+    padding: 40px;
+    
+  }
+  li {
+    float: left;
+  }
+
+  li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: center;
+   
   }
