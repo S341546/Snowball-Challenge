@@ -1,27 +1,29 @@
 body {
-    background-color: lightblue;
-    margin-top: 3vw;
-  
+    background-color: darkslategray;
+    margin-top: 5vw;
+  color: seashell;
   }
 
-  
   h1 {
     font-family: serif;
-    color: black;
+    
     text-align: center;
     font-size: 3vw;
   }
   h2{
     font-size: 2vw;
     text-align: center;
+    
   }
   h3, h4, h5 {
     font-size: 1.5vw;
+    
   }
   
   p {
     font-family: verdana;
     font-size: 1.3vw;
+    
   }
 
   .center {
@@ -32,11 +34,6 @@ body {
   }
 
 
-  .farge {
-    background-color: white;
-    padding: 20px;
-  }
-
   /* navbar */
 
   ul.menu {
@@ -44,7 +41,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: lightgray;
+    background-color: dimgray;
     margin: 0;
     padding: 0;
 
@@ -61,5 +58,6 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 1.3vw;
+    color: seashell;
 
   }
