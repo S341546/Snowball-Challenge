@@ -13,20 +13,20 @@
     /*border: 1px solid grey;*/
 }
 
-.col-small-10 {width: 10%;}
-.col-small-20 {width: 20%;}
-.col-small-25 {width: 25%;}
-.col-small-30 {width: 30%;}
-.col-small-40 {width: 40%;}
-.col-small-50 {width: 50%;}
-.col-small-60 {width: 60%;}
-.col-small-70 {width: 70%;}
-.col-small-80 {width: 80%;}
-.col-small-90 {width: 90%;}
-.col-small-100 {width: 100%;}
+.col-default-10 {width: 10%;}
+.col-default-20 {width: 20%;}
+.col-default-25 {width: 25%;}
+.col-default-30 {width: 30%;}
+.col-default-40 {width: 40%;}
+.col-default-50 {width: 50%;}
+.col-default-60 {width: 60%;}
+.col-default-70 {width: 70%;}
+.col-default-80 {width: 80%;}
+.col-default-90 {width: 90%;}
+.col-default-100 {width: 100%;}
 
 /*telefon*/
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) {
 .col-tel-10 {width: 10%;}
 .col-tel-20 {width: 20%;}
 .col-tel-30 {width: 30%;}
