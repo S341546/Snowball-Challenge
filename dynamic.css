@@ -25,15 +25,42 @@
 .col-small-90 {width: 90%;}
 .col-small-100 {width: 100%;}
 
+/*telefon*/
+@media only screen and (max-width: 600px) {
+.col-tel-10 {width: 10%;}
+.col-tel-20 {width: 20%;}
+.col-tel-30 {width: 30%;}
+.col-tel-40 {width: 40%;}
+.col-tel-50 {width: 50%;}
+.col-tel-60 {width: 60%;}
+.col-tel-70 {width: 70%;}
+.col-tel-80 {width: 80%;}
+.col-tel-90 {width: 90%;}
+.col-tel-100 {width: 100%;}
+}
+/*tablet*/
+@media only screen and (min-width: 750px) {
+.col-tab-10 {width: 10%;}
+.col-tab-20 {width: 20%;}
+.col-tab-30 {width: 30%;}
+.col-tab-40 {width: 40%;}
+.col-tab-50 {width: 50%;}
+.col-tab-60 {width: 60%;}
+.col-tab-70 {width: 70%;}
+.col-tab-80 {width: 80%;}
+.col-tab-90 {width: 90%;}
+.col-tab-100 {width: 100%;}
+}
+/*desktop*/
 @media only screen and (min-width: 1000px) {
-.col-tall-10 {width: 10%;}
-.col-tall-20 {width: 20%;}
-.col-tall-30 {width: 30%;}
-.col-tall-40 {width: 40%;}
-.col-tall-50 {width: 50%;}
-.col-tall-60 {width: 60%;}
-.col-tall-70 {width: 70%;}
-.col-tall-80 {width: 80%;}
-.col-tall-90 {width: 90%;}
-.col-tall-100 {width: 100%;}
+.col-pc-10 {width: 10%;}
+.col-pc-20 {width: 20%;}
+.col-pc-30 {width: 30%;}
+.col-pc-40 {width: 40%;}
+.col-pc-50 {width: 50%;}
+.col-pc-60 {width: 60%;}
+.col-pc-70 {width: 70%;}
+.col-pc-80 {width: 80%;}
+.col-pc-90 {width: 90%;}
+.col-pc-100 {width: 100%;}
 }
