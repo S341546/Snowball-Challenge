@@ -23,6 +23,7 @@ body {
   p {
     font-family: verdana;
     font-size: 1.3em;
+    margin-right: 3vw;
     
   }
 
@@ -38,12 +39,17 @@ body {
       margin-left: none;
       margin-right: none;
       width: 40%;
-      
+  
     }
   }
 
 
   /* navbar */
+
+  .anchor {
+    padding-top: 90px;
+    margin-top: -90px;
+}
 
   ul.menu {
     list-style-type: none;
