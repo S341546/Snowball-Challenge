@@ -1,6 +1,6 @@
 body {
     background-color: darkslategray;
-    margin-top: 5vw;
+    margin-top: 4vw;
   color: seashell;
   }
 
@@ -53,7 +53,7 @@ body {
 
   li a {
 
-    font-size: 1.2vw;
+    font-size: 1.2em;
     display: block;
     text-decoration: none;
     text-align: center;

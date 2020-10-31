@@ -1,4 +1,4 @@
-.row::after{
+.row{
     content: "";
     clear: both;
     display: table;
@@ -9,14 +9,22 @@
 
 [class*="col-"]{
     float: left;
-    padding: 0vw;
-    /*border: 1px solid grey;*/
+    padding: 0;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
 }
 
 .col-default-10 {width: 10%;}
 .col-default-20 {width: 20%;}
 .col-default-25 {width: 25%;}
 .col-default-30 {width: 30%;}
+.col-default-33 {width: 33%;}
 .col-default-40 {width: 40%;}
 .col-default-50 {width: 50%;}
 .col-default-60 {width: 60%;}
