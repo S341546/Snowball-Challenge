@@ -50,6 +50,12 @@ body {
     padding-top: 90px;
     margin-top: -90px;
 }
+@media only screen and (max-width: 1000px){
+  .anchor{
+    padding-top: 70px;
+    margin-top: -70px;
+  }
+}
 
   ul.menu {
     list-style-type: none;
