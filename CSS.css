@@ -46,9 +46,13 @@ width: 80%;
       margin-left: none;
       margin-right: none;
       width: 40%;
-  
     }
-
+  }
+    @media only screen and (max-width: 1000px) {
+      .center-bilde1-small{
+width: 100%;
+      }
+    }
 
   /* navbar */
 
@@ -75,10 +79,7 @@ width: 80%;
     margin-left: -10px;
 
   }
-  li {
-    /*float: left;*/
-    
-  }
+
 
   li a {
 
@@ -90,4 +91,4 @@ width: 80%;
     color: seashell;
 
   }
-  }
+  
