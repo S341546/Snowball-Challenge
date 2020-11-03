@@ -15,10 +15,11 @@
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 5px;
 }
+
 
 .col-default-10 {width: 10%;}
 .col-default-20 {width: 20%;}
