@@ -27,21 +27,19 @@ body {
     
   }
 
-  .center {
+  [class*="center-"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
   }
-  @media only screen and (max-width: 1000px) {
-    .center-small{
-      display: inline;
-      margin-left: none;
-      margin-right: none;
-      width: 40%;
-  
-    }
+  .center-bilde1 {
+width: 80%;
   }
+  .center-bilde2 {
+    width: 60%;
+  }
+
 
 
   /* navbar */
